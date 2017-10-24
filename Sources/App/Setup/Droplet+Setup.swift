@@ -39,5 +39,10 @@ public extension Droplet {
         // /report
         let reportController = ReportController()
         reportController.addRoutes(droplet: self)
+
+        // /accessory
+        let accessoryController = AccessoryController()
+        accessoryController.addRoutes(droplet: self)
+
     }
 }
